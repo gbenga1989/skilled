@@ -1,3 +1,56 @@
+
+@import url("https://api.fonts.coollabs.io/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap");
 :root{
-  
+  --blue-color:#13183F;
+  --pink-color:#F74780; 
+  --blue-light:#666CA3;
+  --pink-light:#FFA7C3;
+  --gray-color:#83869A;
+  --wwhite-color:#FFFFFF;
+  --gradient-pink: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  --gradient-purple:linear-gradient(180deg, #4851FF 0%, #F02AA6 100%); 
+}
+
+body{
+  margin: 0;
+  overflow-y: hidden;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 24px;
+}
+
+a{
+  text-decoration: none;
+  background: var(--blue-color);
+  color: var(--wwhite-color);
+  padding: 16px 32px ;
+  border-radius: 30px;
+}
+
+
+.hero-tittle{
+color: var(--blue-color);
+font-style: normal;
+font-weight: 800;
+font-size: 56px;
+line-height: 120%;
+margin-bottom: 24px;
 }
