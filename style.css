@@ -13,7 +13,7 @@
 
 body{
   margin: 0;
-  background: #FFFFFF;
+  background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -134,10 +134,76 @@ transition: .2s ease-in;
 POPULAR COURSES 
 
 
+
 */
+
 #popular-courses{
   margin-bottom: 144px;
 }
+
+.courses-contents{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 56px 32px;
+  justify-items: center;
+}
+
+.course-box{
+  width: 352px;
+  height: 322px;
+  border-radius: 15px;
+  background: var(--wwhite-color);
+}
+
+
+#colored-box{
+  background: var(--gradient-pink);
+}
+
+h2{
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 120%;
+padding: 64px 32px;
+color: white;
+}
+
+.course-box-icon{
+  margin-left:30px;
+  margin-top: -28px;
+} 
+
+.course-box-text{
+  padding: 64px 32px 40px 32px ;
+}
+
+h3{
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 120%;
+color: var(--blue-color);
+padding-bottom: 24px;
+}
+
+/* PRACTICALS */
+/* .courses-contents{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-items: center;
+  justify-content: center;
+}
+
+.course-box{
+  width: 352px;
+  height: 322px;
+  align-items: center;
+  justify-items: center;
+  background-color: white;
+} */
+
 
 /* media queries */
 
