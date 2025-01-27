@@ -74,6 +74,8 @@ ul li{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 0;
+  
 }
 
 h1{
@@ -124,6 +126,17 @@ transition: .2s ease-in;
 
 .hero-mobile-img{
   display: none;
+}
+
+
+/* 
+
+POPULAR COURSES 
+
+
+*/
+#popular-courses{
+  margin-bottom: 144px;
 }
 
 /* media queries */
